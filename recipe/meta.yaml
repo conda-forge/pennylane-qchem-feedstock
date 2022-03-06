@@ -1,5 +1,5 @@
 {% set name = "pennylane-qchem" %}
-{% set version = "0.17.0" %}
+{% set version = "0.21.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PennyLane-Qchem-{{ version }}.tar.gz
-  sha256: 5e12406685405126d297914851a95c2b2213658fe19818811899e24b61b511b9
+  sha256: 52e2416bb51772ff8e33229f5391b4b600b997468b5ba395322c47d05fcaf864
 
 build:
   number: 0
